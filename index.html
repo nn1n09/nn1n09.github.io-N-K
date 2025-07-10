@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>N&K</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" href="/image/ic.png" type="image/png" />
+</head>
+<body>
+  <div class="container">
+    <div class="logo-box">
+      <p class="title">N&K</p>
+      <p class="notice">일부 노래는 재생이 되지 않을 수 있습니다.</p>
+    </div>
+
+    <div class="add-box">
+      <p class="add-title">🎵 새 노래 추가</p>
+      <input type="text" placeholder="노래 제목을 입력하세요…" />
+      <input type="url" placeholder="YouTube URL을 여기에 붙여넣으세요…" />
+      <button class="add-button">+ 노래 추가</button>
+    </div>
+
+    <div class="playlist-box">
+      <div class="playlist-header">
+        <span class="playlist-title">Your Playlist</span>
+        <span class="playlist-count" id="songCount">0 songs</span>
+      </div>
+      <div id="songList"></div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

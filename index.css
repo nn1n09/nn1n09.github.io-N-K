@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Do+Hyeon&family=Jua&family=Nanum+Gothic&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(105deg, #a323ff, #1e90ff);
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.logo-box {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.logo {
+  width: 300px; 
+
+}
+.logo-box h1 {
+  font-size: 2.4rem; 
+  margin: 1rem 0;
+}
+.notice {
+  font-size: 1.1rem;
+  color: #ddd;
+}
+.title{
+  font-size: 100px;
+  font-weight: bold;
+  margin: 10px;
+  color: white;
+  font-family: "Abril Fatface", serif;
+}
+
+/* 추가 박스 */
+.add-box {
+  background: white;
+  border-radius: 1.2rem;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+}
+.add-title {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.add-box input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.6rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1.2rem;
+  box-sizing: border-box;
+}
+.add-button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #d48cf0, #f3a6cb);
+  border: none;
+  color: white;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+/* 플레이리스트 박스 */
+.playlist-box {
+  background: linear-gradient(to right, #9c27b0, #e91e63);
+  border-radius: 1.2rem;
+  padding: 2rem;
+}
+.playlist-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+.song-card {
+  background: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 1.2rem;
+  color: black;
+  gap: 1.5rem;
+}
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+.song-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+  font-size: 1.2rem;
+}
+.play-button {
+  background: #9c27b0;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.delete-button {
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.song-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.song-date {
+  font-size: 1rem;
+  color: gray;
+}
+
+.playlist-title {
+  font-size: 1.6rem;
+  color: white;
+}
+.playlist-count {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: white;
+}
+
+#songList .song-card {
+  margin-bottom: 16px; 
+}
