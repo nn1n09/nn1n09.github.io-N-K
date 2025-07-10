@@ -86,7 +86,7 @@ function createSongCardElement(song) {
   deleteBtn.type = 'button';
   deleteBtn.className = 'delete-button';
   const img = document.createElement('img');
-  img.src = '/image/delete_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png';
+  img.src = 'image/delete_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png';
   deleteBtn.appendChild(img);
   deleteBtn.onclick = () => {
     songList.removeChild(card);
